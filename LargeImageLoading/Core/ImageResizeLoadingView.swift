@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ImageResizeLoadingView: View {
     var body: some View {
-        let image = UIImage(contentsOfFile: Bundle.main.path(forResource: "中国地图", ofType: "jpg")!)!.resizeImage2To(target: 1280)!
+        let image = UIImage(contentsOfFile: Bundle.main.path(forResource: "中国地图", ofType: "jpg")!)!.resizeImageTo(target: 1280)!
         Image(uiImage: image)
             .resizable()
             .scaledToFit()

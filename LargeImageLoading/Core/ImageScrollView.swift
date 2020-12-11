@@ -10,9 +10,7 @@ import SwiftUI
 struct ImageScrollView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UIImageScrollView {
-        let v = UIImageScrollView()
-        v.setContentHuggingPriority(.required, for: .horizontal) // << here !!
-        v.setContentHuggingPriority(.required, for: .vertical)
+        let v = UIImageScrollView(frame: UIScreen.main.bounds)
         return v
     }
     

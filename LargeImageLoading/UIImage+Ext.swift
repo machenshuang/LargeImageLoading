@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension UIImage {
-    func resizeImage2To(target: CGFloat) -> UIImage? {
+    func resizeImageTo(target: CGFloat) -> UIImage? {
         let width = self.size.width
         let height = self.size.height
         let scale = self.size.width / self.size.height
@@ -48,6 +48,4 @@ extension UIImage {
         }
         return self
     }
-    
-    
 }

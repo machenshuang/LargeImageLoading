@@ -19,6 +19,7 @@
 		42499CFD25835965008CCA4D /* ImageResizeLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CFC25835965008CCA4D /* ImageResizeLoadingView.swift */; };
 		42499D0C25835D45008CCA4D /* UIImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499D0725835BF3008CCA4D /* UIImageScrollView.swift */; };
 		42499D0F25835DBA008CCA4D /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499D0425835BBF008CCA4D /* ImageScrollView.swift */; };
+		42499D1425836058008CCA4D /* TiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499D1325836058008CCA4D /* TiledImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		42499CFC25835965008CCA4D /* ImageResizeLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizeLoadingView.swift; sourceTree = "<group>"; };
 		42499D0425835BBF008CCA4D /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		42499D0725835BF3008CCA4D /* UIImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageScrollView.swift; sourceTree = "<group>"; };
+		42499D1325836058008CCA4D /* TiledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +114,7 @@
 				42499CD5258306EA008CCA4D /* MainContentView.swift */,
 				42499CF8258351D5008CCA4D /* OriginalImageLoadingView.swift */,
 				42499CFC25835965008CCA4D /* ImageResizeLoadingView.swift */,
-				42499D0725835BF3008CCA4D /* UIImageScrollView.swift */,
+				42499D0425835BBF008CCA4D /* ImageScrollView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -120,7 +122,8 @@
 		42499D0A25835C20008CCA4D /* ImageScroll */ = {
 			isa = PBXGroup;
 			children = (
-				42499D0425835BBF008CCA4D /* ImageScrollView.swift */,
+				42499D0725835BF3008CCA4D /* UIImageScrollView.swift */,
+				42499D1325836058008CCA4D /* TiledImageView.swift */,
 			);
 			path = ImageScroll;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42499CFD25835965008CCA4D /* ImageResizeLoadingView.swift in Sources */,
+				42499D1425836058008CCA4D /* TiledImageView.swift in Sources */,
 				42499D0C25835D45008CCA4D /* UIImageScrollView.swift in Sources */,
 				42499D0F25835DBA008CCA4D /* ImageScrollView.swift in Sources */,
 				42499CD2258306EA008CCA4D /* AppDelegate.swift in Sources */,
