@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		42499CD2258306EA008CCA4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CD1258306EA008CCA4D /* AppDelegate.swift */; };
 		42499CD4258306EA008CCA4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CD3258306EA008CCA4D /* SceneDelegate.swift */; };
-		42499CD6258306EA008CCA4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CD5258306EA008CCA4D /* ContentView.swift */; };
+		42499CD6258306EA008CCA4D /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CD5258306EA008CCA4D /* MainContentView.swift */; };
 		42499CD8258306EB008CCA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42499CD7258306EB008CCA4D /* Assets.xcassets */; };
 		42499CDB258306EB008CCA4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42499CDA258306EB008CCA4D /* Preview Assets.xcassets */; };
 		42499CDE258306EB008CCA4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42499CDC258306EB008CCA4D /* LaunchScreen.storyboard */; };
+		42499CEC25834473008CCA4D /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CEB25834473008CCA4D /* UIImage+Ext.swift */; };
+		42499CF0258344B2008CCA4D /* 中国地图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42499CEF258344B2008CCA4D /* 中国地图.jpg */; };
+		42499CF9258351D5008CCA4D /* OriginalImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CF8258351D5008CCA4D /* OriginalImageLoadingView.swift */; };
+		42499CFD25835965008CCA4D /* ImageResizeLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499CFC25835965008CCA4D /* ImageResizeLoadingView.swift */; };
+		42499D0C25835D45008CCA4D /* UIImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499D0725835BF3008CCA4D /* UIImageScrollView.swift */; };
+		42499D0F25835DBA008CCA4D /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42499D0425835BBF008CCA4D /* ImageScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42499CCE258306EA008CCA4D /* LargeImageLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeImageLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42499CD1258306EA008CCA4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42499CD3258306EA008CCA4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42499CD5258306EA008CCA4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42499CD5258306EA008CCA4D /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		42499CD7258306EB008CCA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42499CDA258306EB008CCA4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42499CDD258306EB008CCA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42499CDF258306EB008CCA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42499CEB25834473008CCA4D /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		42499CEF258344B2008CCA4D /* 中国地图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中国地图.jpg"; sourceTree = "<group>"; };
+		42499CF8258351D5008CCA4D /* OriginalImageLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalImageLoadingView.swift; sourceTree = "<group>"; };
+		42499CFC25835965008CCA4D /* ImageResizeLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizeLoadingView.swift; sourceTree = "<group>"; };
+		42499D0425835BBF008CCA4D /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		42499D0725835BF3008CCA4D /* UIImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +68,11 @@
 		42499CD0258306EA008CCA4D /* LargeImageLoading */ = {
 			isa = PBXGroup;
 			children = (
-				42499CD1258306EA008CCA4D /* AppDelegate.swift */,
-				42499CD3258306EA008CCA4D /* SceneDelegate.swift */,
-				42499CD5258306EA008CCA4D /* ContentView.swift */,
-				42499CD7258306EB008CCA4D /* Assets.xcassets */,
-				42499CDC258306EB008CCA4D /* LaunchScreen.storyboard */,
-				42499CDF258306EB008CCA4D /* Info.plist */,
+				42499CF525835120008CCA4D /* Core */,
+				42499CF22583453E008CCA4D /* Supporting Files */,
+				42499CEE2583449F008CCA4D /* Resource */,
 				42499CD9258306EB008CCA4D /* Preview Content */,
+				42499CEB25834473008CCA4D /* UIImage+Ext.swift */,
 			);
 			path = LargeImageLoading;
 			sourceTree = "<group>";
@@ -73,6 +83,46 @@
 				42499CDA258306EB008CCA4D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42499CEE2583449F008CCA4D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				42499CEF258344B2008CCA4D /* 中国地图.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		42499CF22583453E008CCA4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42499CD1258306EA008CCA4D /* AppDelegate.swift */,
+				42499CD3258306EA008CCA4D /* SceneDelegate.swift */,
+				42499CD7258306EB008CCA4D /* Assets.xcassets */,
+				42499CDC258306EB008CCA4D /* LaunchScreen.storyboard */,
+				42499CDF258306EB008CCA4D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42499CF525835120008CCA4D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				42499D0A25835C20008CCA4D /* ImageScroll */,
+				42499CD5258306EA008CCA4D /* MainContentView.swift */,
+				42499CF8258351D5008CCA4D /* OriginalImageLoadingView.swift */,
+				42499CFC25835965008CCA4D /* ImageResizeLoadingView.swift */,
+				42499D0725835BF3008CCA4D /* UIImageScrollView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		42499D0A25835C20008CCA4D /* ImageScroll */ = {
+			isa = PBXGroup;
+			children = (
+				42499D0425835BBF008CCA4D /* ImageScrollView.swift */,
+			);
+			path = ImageScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +185,7 @@
 				42499CDE258306EB008CCA4D /* LaunchScreen.storyboard in Resources */,
 				42499CDB258306EB008CCA4D /* Preview Assets.xcassets in Resources */,
 				42499CD8258306EB008CCA4D /* Assets.xcassets in Resources */,
+				42499CF0258344B2008CCA4D /* 中国地图.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42499CFD25835965008CCA4D /* ImageResizeLoadingView.swift in Sources */,
+				42499D0C25835D45008CCA4D /* UIImageScrollView.swift in Sources */,
+				42499D0F25835DBA008CCA4D /* ImageScrollView.swift in Sources */,
 				42499CD2258306EA008CCA4D /* AppDelegate.swift in Sources */,
+				42499CEC25834473008CCA4D /* UIImage+Ext.swift in Sources */,
 				42499CD4258306EA008CCA4D /* SceneDelegate.swift in Sources */,
-				42499CD6258306EA008CCA4D /* ContentView.swift in Sources */,
+				42499CD6258306EA008CCA4D /* MainContentView.swift in Sources */,
+				42499CF9258351D5008CCA4D /* OriginalImageLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +346,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LargeImageLoading/Preview Content\"";
 				DEVELOPMENT_TEAM = YT6QHNRQP3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LargeImageLoading/Info.plist;
+				INFOPLIST_FILE = "LargeImageLoading/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +367,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LargeImageLoading/Preview Content\"";
 				DEVELOPMENT_TEAM = YT6QHNRQP3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LargeImageLoading/Info.plist;
+				INFOPLIST_FILE = "LargeImageLoading/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
